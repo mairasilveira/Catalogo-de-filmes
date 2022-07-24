@@ -1,0 +1,130 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  text-align:center;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvHTx5avCjSlzGCMOU3OkqMg1wxBO2FDfWqD9gXV_EbBPUaXcv-8HcN5CzxsLjUHGgG5c&usqp=CAU');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.showcase-top img {
+	width: 170px;
+}
+
+.header{
+  color: #ffffff;
+  margin-right: 5px;
+}
+.page-title {
+  color: #DC143C;
+  margin: 0 0 5px;
+  font-family: Impact;
+  perspective: 1000px;
+  perspective-origin: 50% 0;
+  font-size: 6em;
+  display: inline-flex;
+}
+
+.indice {
+  padding: 15px;
+}
+
+.page-subtitle {
+  color: #red;
+  margin-top: 5px;
+}
+
+.filme-principal{
+  color: #ffffff;
+  margin: 0 0 5px;
+  
+}
+
+
+body > img {
+  margin: 0 10px;
+  border-radius: 10px;
+  cursor:pointer;
+}
+
+.listaFilmes {
+  direction: left
+  transition: transform 2s ease  
+  max-width: 100%;
+  height: auto;
+  opacity: 0.6;
+    
+}
+select  {
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+  font-family: 'Poppins';
+  font-size: 14px !important;
+}
+
+button{
+ background-color: rgba(0,0,0,.50);        border:none;
+ color: white;
+  
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);                                        
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+body > img {
+  margin: 0 10px;
+  border-radius: 10px;
+  cursor:pointer;
+  width: 16em;
+  height: 22.5em;
+  
+}
+
+.Titulo{
+  background-color: rgba(0,0,0,.50);                                        
+    border:none;
+    color: #696969;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.Titulo:hover{
+    background-color:white;
+    color:black;
+}
+
+.Titulo i{
+    margin-right: 8px;
+}
+
